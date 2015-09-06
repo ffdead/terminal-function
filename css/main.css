@@ -102,8 +102,11 @@ html, body {
 }
 
 body {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
+    -webkit-flex-direction: column;
     flex-direction: column;
 
     background: #222;
@@ -124,6 +127,7 @@ a:hover {
 
 .item {
     margin: 0 auto 1em;
+    display: block;
 }
 
 iframe {
